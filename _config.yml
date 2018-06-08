@@ -1,0 +1,40 @@
+---
+title: Jekflix | A theme for Jekyll
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+email: youremail@xyz.com
+description: Some text about your blog.
+baseurl: "/jekflix-template"
+url: https://www.rossener.com
+google_analytics: UA-XXXXXXXX-X
+username: Jekflix
+user_description: Some text about you.
+disqus_username: disqus_username
+github_username: github_username
+facebook_username: facebook_username
+twitter_username: twitter_username
+instagram_username: instagram_username
+linkedin_username: linkedin_username
+medium_username: medium_username
+markdown: kramdown
+highlighter: rouge
+permalink: "/:title/"
+gems:
+- jemoji
+links:
+- title: Home
+  url: "/"
+- title: About
+  url: "/about/"
+- title: Contact
+  url: "/contact/"
+exclude:
+- package.json
+- src
+- node_modules
